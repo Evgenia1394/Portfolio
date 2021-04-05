@@ -1,0 +1,57 @@
+.benefits {
+  min-height: 470px;
+  padding: 73px 483px 0 487px;
+  &__header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #0d0d0d;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__wrapper {
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+  &__icons {
+    width: 952px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icon {
+    width: 277px;
+    text-align: center;
+    color: #000;
+    margin-right: 65px;
+    &_animated {
+        animation-name: heartbeat;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+    &__title {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &__description {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 20px;
+      span {
+        color: #ff0000;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
